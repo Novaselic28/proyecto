@@ -1,0 +1,68 @@
+/* Estilo para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Estilo para las filas pares */
+  .table tbody tr:nth-child(even) {
+    background-color: #9bc3ff;
+  }
+  
+  /* Estilo para las filas impares */
+  .table tbody tr:nth-child(odd) {
+    background-color: #b4dbff;
+  }
+  
+  /* Estilo para el hover en las filas */
+  .table tbody tr:hover {
+    background-color: #d8ebff;
+  }
+  
+  /* Estilo para el borde de la tabla */
+  .table tbody tr {
+    border-bottom: 1px solid #d8d7d7;
+  }
+  
+  /* Estilo para el borde superior de la primera fila */
+  .table tbody tr:first-child {
+    border-top: 1px solid #ECECEC;
+  }
+  
+  /* Estilo para el borde izquierdo de las celdas */
+  .table td, .table th {
+    border-left: 1px solid #ECECEC;
+  }
+  
+  /* Estilo para el borde derecho de las celdas */
+  .table td:last-child, .table th:last-child {
+    border-right: 1px solid #ECECEC;
+  }
+  .table-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .table-image {
+    height: 200px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .table {
+    flex: 1;
+    margin: 0 15px;
+  }
+  /* PARA QUE EL MENU APARESCA SELECIONADO0 */
+  a {
+    text-decoration: none;
+    border-bottom: none;
+  }
+  
+  .table-link {
+    color: #0f4c81;
+    background-color: #F1F8FF; /* Color de fondo de la tabla */
+  }
+  
+  
